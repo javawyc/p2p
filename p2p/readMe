@@ -1,0 +1,10 @@
+config:配置类
+controller:控制层
+dao:mybatis接口处
+enums:异常枚举
+exception:自定义异常
+handle:拦截层
+po:实体类层(对应数据库表)
+service:逻辑层
+util:工具类
+vo:视图层(定义视图实体类, 及逻辑判断用到的实体类)
