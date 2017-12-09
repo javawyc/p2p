@@ -1,4 +1,4 @@
-package com.p2p.portal.util;
+package com.p2p.sso.util;
 
 import com.aliyuncs.DefaultAcsClient;
 import com.aliyuncs.IAcsClient;
@@ -9,6 +9,7 @@ import com.aliyuncs.dysmsapi.model.v20170525.SendSmsResponse;
 import com.aliyuncs.exceptions.ClientException;
 import com.aliyuncs.profile.DefaultProfile;
 import com.aliyuncs.profile.IClientProfile;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -25,7 +26,7 @@ import java.util.Date;
  * 国际短信发送请勿参照此DEMO
  */
 
-public class SmsDemo {
+public class SmsUtil {
 
     //产品名称:云通信短信API产品,开发者无需替换
     static final String product = "Dysmsapi";
